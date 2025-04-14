@@ -4,8 +4,8 @@ import office from "../../assets/images/office.png";
 import factory from "../../assets/images/factory.png";
 const Services = () => {
   return (
-    <div className="container mx-auto">
-      <div className="flex  items-center justify-between gap-4 mt-15 md:gap-0">
+    <div className="container mx-auto mb-20">
+      <div className="flex  items-center  justify-between gap-4 mt-15 md:gap-0">
   <h1 className="text-[#211F54] text-[26px] md:text-[40px] lg:text-[48px] font-bold">
     Our Services
   </h1>
