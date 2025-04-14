@@ -17,7 +17,7 @@ const About = () => {
           <div>
             <img src={online} alt="" />
           </div>
-          <h1 className="text-[28px] text-center text-[#211F54] font-bold">
+          <h1 className="text-[28px] mt-5 mb-5 text-center text-[#211F54] font-bold">
             1. Schedule online
           </h1>
           <p className="text-[#6E7191] text-[21px] text-center">
@@ -29,7 +29,7 @@ const About = () => {
           <div>
             <img src={pay} alt="" />
           </div>
-          <h1 className="text-[28px] text-center text-[#211F54] font-bold">
+          <h1 className="text-[28px] mt-5 mb-5 text-center text-[#211F54] font-bold">
             2. Pay online easily
           </h1>
           <p className="text-[#6E7191] text-[21px] text-center">
@@ -41,7 +41,7 @@ const About = () => {
           <div>
             <img src={clean} alt="" />
           </div>
-          <h1 className="text-[28px] text-center text-[#211F54] font-bold">
+          <h1 className="text-[28px] mt-5 mb-5 text-center text-[#211F54] font-bold">
             3. Get your house cleaned
           </h1>
           <p className="text-[#6E7191] text-[21px] text-center">
