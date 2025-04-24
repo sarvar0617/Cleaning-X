@@ -16,96 +16,46 @@ const Services = () => {
     Explore services
   </a>
 </div>
-      {/* <div className="flex">
-        <div className="w-full max-w-[388px] h-[494px] flex flex-col gap-10 items-center border-1 border-[#00000020] rounded-[16px]">
-          <div className="pt-15">
-            <img src={home} alt="" />
-          </div>
-          <div>
-            <h1 className="text-[24px] text-[#211F54] font-bold text-center">
-              House cleaning
-            </h1>
-            <p className="text-[#6E7191] text-[21px] text-center pt-5 ">
-              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-              dalaracc lacus vel facilisis volutpat est.
-            </p>
-          </div>
-        </div>
-        <div className="w-full max-w-[388px] h-[494px] flex flex-col gap-10 items-center border-1 border-[#00000020] rounded-[16px]">
-          <div className="pt-15">
-            <img src={home} alt="" />
-          </div>
-          <div>
-            <h1 className="text-[24px] text-[#211F54] font-bold text-center">
-              House cleaning
-            </h1>
-            <p className="text-[#6E7191] text-[21px] text-center pt-5 ">
-              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-              dalaracc lacus vel facilisis volutpat est.
-            </p>
-          </div>
-        </div>
-        <div className="w-full max-w-[388px] h-[494px] flex flex-col gap-10 items-center border-1 border-[#00000020] rounded-[16px]">
-          <div className="pt-15">
-            <img src={home} alt="" />
-          </div>
-          <div>
-            <h1 className="text-[24px] text-[#211F54] font-bold text-center">
-              House cleaning
-            </h1>
-            <p className="text-[#6E7191] text-[21px] text-center pt-5 ">
-              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-              dalaracc lacus vel facilisis volutpat est.
-            </p>
-          </div>
-        </div>
-      </div> */}
-      <div className="grid grid-cols-1 mt-20 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div className="w-full max-w-[388px] h-[494px] flex flex-col gap-10 items-center border border-[#00000020] rounded-[16px]">
-          <div className="pt-15">
-            <img src={home} alt="" />
-          </div>
-          <div>
-            <h1 className="text-[24px] text-[#211F54] font-bold text-center">
-              House cleaning
-            </h1>
-            <p className="text-[#6E7191] text-[21px] text-center pt-5">
-              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-              dalaracc lacus vel facilisis volutpat est.
-            </p>
-          </div>
-        </div>
-
-        <div className="w-full max-w-[388px] h-[494px] flex flex-col gap-10 items-center border border-[#00000020] rounded-[16px]">
-          <div className="pt-15">
-            <img src={home} alt="" />
-          </div>
-          <div>
-            <h1 className="text-[24px] text-[#211F54] font-bold text-center">
-              House cleaning
-            </h1>
-            <p className="text-[#6E7191] text-[21px] text-center pt-5">
-              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-              dalaracc lacus vel facilisis volutpat est.
-            </p>
-          </div>
-        </div>
-
-        <div className="w-full max-w-[388px] h-[494px] flex flex-col gap-10 items-center border border-[#00000020] rounded-[16px]">
-          <div className="pt-15">
-            <img src={home} alt="" />
-          </div>
-          <div>
-            <h1 className="text-[24px] text-[#211F54] font-bold text-center">
-              House cleaning
-            </h1>
-            <p className="text-[#6E7191] text-[21px] text-center pt-5">
-              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-              dalaracc lacus vel facilisis volutpat est.
-            </p>
-          </div>
-        </div>
+<div className="container mx-auto px-4 mt-20">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
+    <div className="w-full max-w-[388px] h-[494px] flex flex-col gap-10 items-center border border-[#00000020] rounded-[16px]">
+      <div className="pt-10">
+        <img src={home} alt="" />
       </div>
+      <div>
+        <h1 className="text-[24px] text-[#211F54] font-bold text-center">House cleaning</h1>
+        <p className="text-[#6E7191] text-[21px] text-center pt-5">
+          Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est.
+        </p>
+      </div>
+    </div>
+
+    <div className="w-full max-w-[388px] h-[494px] flex flex-col gap-10 items-center border border-[#00000020] rounded-[16px]">
+      <div className="pt-10">
+        <img src={home} alt="" />
+      </div>
+      <div>
+        <h1 className="text-[24px] text-[#211F54] font-bold text-center">House cleaning</h1>
+        <p className="text-[#6E7191] text-[21px] text-center pt-5">
+          Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est.
+        </p>
+      </div>
+    </div>
+
+    <div className="w-full max-w-[388px] h-[494px] flex flex-col gap-10 items-center border border-[#00000020] rounded-[16px]">
+      <div className="pt-10">
+        <img src={home} alt="" />
+      </div>
+      <div>
+        <h1 className="text-[24px] text-[#211F54] font-bold text-center">House cleaning</h1>
+        <p className="text-[#6E7191] text-[21px] text-center pt-5">
+          Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };

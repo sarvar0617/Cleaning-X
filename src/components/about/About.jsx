@@ -5,7 +5,7 @@ import clean from "../../assets/images/clened.png";
 const About = () => {
   return (
     <div className="container mx-auto mt-15">
-      <div className="flex flex-col items-center ">
+      <div className="flex flex-col items-center  mt-55 ">
         <h1 className="font-bold text-[48px] text-[#211F54]">About us</h1>
         <p className=" text-[#6E7191] text-[21px] text-center flex  w-full max-w-[648px]  mt-10">
           Sagittis nibh scelerisque vitae eget vulputate sem elementum sed neque
