@@ -4,8 +4,8 @@ import plisos from "../../assets/images/plisos.png";
 function Resourse() {
   return (
     <div className="container mx-auto mb-20">
-      <div className="flex  items-center   justify-between gap-4 mt-15 md:gap-0">
-        <h1 className="text-[#211F54] text-[26px] md:text-[40px] lg:text-[48px] font-bold">
+      <div className="flex  items-center sm:flex-row flex-col  justify-between gap-4 mt-15 md:gap-0">
+        <h1 className="text-[#211F54] text-[26px] md:text-[40px] lg:text-[48px] font-bold ">
           Articles & resources
         </h1>
         <div className="flex gap-5">
@@ -14,7 +14,7 @@ function Resourse() {
             className="text-white text-[18px] w-[130px] md:w-[174px] h-[50px] md:h-[54px] rounded-[14px] flex items-center justify-center bg-[#0075FF]"
           >
             Get a free
-          </a>{" "}
+          </a>
           <a
             href="#"
             className="text-black border border-[#00000037] text-[16px] md:text-[18px] w-[130px] md:w-[174px] h-[48px] md:h-[54px] rounded-[14px] flex items-center justify-center"
