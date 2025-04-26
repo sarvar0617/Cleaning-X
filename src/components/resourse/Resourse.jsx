@@ -56,7 +56,7 @@ function Resourse() {
             </h1>
             <p className="text-[18px] sm:text-[21px] text-[#000000a1] w-full">
               Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo
-              quis odio sit sit ac port titor sit males.
+              quis odio sit sit ac port titor sit males
             </p>
             <div className="flex items-center justify-between w-full">
               <span className="text-[16px] sm:text-[18px] font-bold">
